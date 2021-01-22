@@ -46,14 +46,14 @@
     }
     return rent;
    }
-   hotelCost(65);
+   
 
 //megaFriend
 
 function megaFriend(myfriend){
   //search long value
-    let num = '';
-    for (let i = 0; i<myfriend.length; i++) 
+    var num = '';
+    for (var i = 0; i<myfriend.length; i++) 
     {
       if (num.length < myfriend[i].length) {
         num = myfriend[i];
